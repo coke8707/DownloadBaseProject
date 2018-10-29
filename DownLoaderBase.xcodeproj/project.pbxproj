@@ -13,7 +13,30 @@
 		A28552D02186CDEF00578C4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A28552CE2186CDEF00578C4E /* Main.storyboard */; };
 		A28552D22186CDEF00578C4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A28552D12186CDEF00578C4E /* Assets.xcassets */; };
 		A28552D52186CDEF00578C4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A28552D32186CDEF00578C4E /* LaunchScreen.storyboard */; };
-		A28552DD2186E02500578C4E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28552DC2186E02500578C4E /* BaseViewController.swift */; };
+		A285534C2186F08500578C4E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A285531F2186F08500578C4E /* BaseViewController.swift */; };
+		A285534D2186F08500578C4E /* KHNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A28553212186F08500578C4E /* KHNavigationController.m */; };
+		A285534E2186F08500578C4E /* KHRecommandListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A28553252186F08500578C4E /* KHRecommandListView.xib */; };
+		A285534F2186F08500578C4E /* KHPlayListView.m in Sources */ = {isa = PBXBuildFile; fileRef = A28553262186F08500578C4E /* KHPlayListView.m */; };
+		A28553502186F08500578C4E /* KHControlOverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A28553272186F08500578C4E /* KHControlOverlayView.xib */; };
+		A28553512186F08500578C4E /* KHPlayerUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A28553282186F08500578C4E /* KHPlayerUtil.m */; };
+		A28553522186F08500578C4E /* KHRecommandListView.m in Sources */ = {isa = PBXBuildFile; fileRef = A285532A2186F08500578C4E /* KHRecommandListView.m */; };
+		A28553532186F08500578C4E /* KHPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A285532C2186F08500578C4E /* KHPlayerViewController.m */; };
+		A28553542186F08500578C4E /* KHResolution.m in Sources */ = {isa = PBXBuildFile; fileRef = A285532E2186F08500578C4E /* KHResolution.m */; };
+		A28553552186F08500578C4E /* KHPlayerGoogleCast.m in Sources */ = {isa = PBXBuildFile; fileRef = A285532F2186F08500578C4E /* KHPlayerGoogleCast.m */; };
+		A28553562186F08500578C4E /* ELLayoutCombinationConstraintModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A28553352186F08500578C4E /* ELLayoutCombinationConstraintModel.m */; };
+		A28553572186F08500578C4E /* ELConstraintsMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = A285533A2186F08500578C4E /* ELConstraintsMaker.m */; };
+		A28553582186F08500578C4E /* ELLayoutConstraintModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A285533C2186F08500578C4E /* ELLayoutConstraintModel.m */; };
+		A28553592186F08500578C4E /* UIView+EasyLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A285533D2186F08500578C4E /* UIView+EasyLayout.m */; };
+		A285535A2186F08500578C4E /* UIView+BSXMaterialAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A28553402186F08500578C4E /* UIView+BSXMaterialAnimation.m */; };
+		A285535B2186F08500578C4E /* BSXUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = A28553412186F08500578C4E /* BSXUIView.m */; };
+		A285535C2186F08500578C4E /* KHPlayListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A28553432186F08500578C4E /* KHPlayListView.xib */; };
+		A285535D2186F08500578C4E /* KHControlOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = A28553462186F08500578C4E /* KHControlOverlayView.m */; };
+		A285535E2186F08500578C4E /* KHTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A28553482186F08500578C4E /* KHTabBarController.m */; };
+		A285535F2186F08500578C4E /* KHMoreVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = A285534A2186F08500578C4E /* KHMoreVideo.m */; };
+		A28553602186F08500578C4E /* KHMoreVideo.xib in Resources */ = {isa = PBXBuildFile; fileRef = A285534B2186F08500578C4E /* KHMoreVideo.xib */; };
+		A28553662186F7C900578C4E /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28553652186F7C900578C4E /* IntroViewController.swift */; };
+		A28553682186F7E100578C4E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28553672186F7E100578C4E /* LoginViewController.swift */; };
+		A285536A2186F91500578C4E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A28553692186F91500578C4E /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +50,52 @@
 		A28552D12186CDEF00578C4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A28552D42186CDEF00578C4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A28552D62186CDEF00578C4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A28552DC2186E02500578C4E /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		A285531F2186F08500578C4E /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		A28553212186F08500578C4E /* KHNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KHNavigationController.m; sourceTree = "<group>"; };
+		A28553222186F08500578C4E /* KHPlayerGoogleCast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KHPlayerGoogleCast.h; sourceTree = "<group>"; };
+		A28553232186F08500578C4E /* KHPlayerNotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KHPlayerNotifications.h; sourceTree = "<group>"; };
+		A28553242186F08500578C4E /* KHResolution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KHResolution.h; sourceTree = "<group>"; };
+		A28553252186F08500578C4E /* KHRecommandListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KHRecommandListView.xib; sourceTree = "<group>"; };
+		A28553262186F08500578C4E /* KHPlayListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KHPlayListView.m; sourceTree = "<group>"; };
+		A28553272186F08500578C4E /* KHControlOverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KHControlOverlayView.xib; sourceTree = "<group>"; };
+		A28553282186F08500578C4E /* KHPlayerUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KHPlayerUtil.m; sourceTree = "<group>"; };
+		A28553292186F08500578C4E /* KHControlOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KHControlOverlayView.h; sourceTree = "<group>"; };
+		A285532A2186F08500578C4E /* KHRecommandListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KHRecommandListView.m; sourceTree = "<group>"; };
+		A285532B2186F08500578C4E /* KHMoreVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KHMoreVideo.h; sourceTree = "<group>"; };
+		A285532C2186F08500578C4E /* KHPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KHPlayerViewController.m; sourceTree = "<group>"; };
+		A285532D2186F08500578C4E /* KHTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KHTabBarController.h; sourceTree = "<group>"; };
+		A285532E2186F08500578C4E /* KHResolution.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KHResolution.m; sourceTree = "<group>"; };
+		A285532F2186F08500578C4E /* KHPlayerGoogleCast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KHPlayerGoogleCast.m; sourceTree = "<group>"; };
+		A28553302186F08500578C4E /* KHNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KHNavigationController.h; sourceTree = "<group>"; };
+		A28553322186F08500578C4E /* ELConstraintsMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELConstraintsMaker.h; sourceTree = "<group>"; };
+		A28553332186F08500578C4E /* UIView+EasyLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EasyLayout.h"; sourceTree = "<group>"; };
+		A28553342186F08500578C4E /* ELLayoutConstraintModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELLayoutConstraintModel.h; sourceTree = "<group>"; };
+		A28553352186F08500578C4E /* ELLayoutCombinationConstraintModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELLayoutCombinationConstraintModel.m; sourceTree = "<group>"; };
+		A28553362186F08500578C4E /* EasyLayoutDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyLayoutDefine.h; sourceTree = "<group>"; };
+		A28553372186F08500578C4E /* ELLayoutAttributeProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELLayoutAttributeProtocol.h; sourceTree = "<group>"; };
+		A28553382186F08500578C4E /* EasyLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyLayout.h; sourceTree = "<group>"; };
+		A28553392186F08500578C4E /* ELConstraintsMaker+ELPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ELConstraintsMaker+ELPrivate.h"; sourceTree = "<group>"; };
+		A285533A2186F08500578C4E /* ELConstraintsMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELConstraintsMaker.m; sourceTree = "<group>"; };
+		A285533B2186F08500578C4E /* ELLayoutCombinationConstraintModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELLayoutCombinationConstraintModel.h; sourceTree = "<group>"; };
+		A285533C2186F08500578C4E /* ELLayoutConstraintModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELLayoutConstraintModel.m; sourceTree = "<group>"; };
+		A285533D2186F08500578C4E /* UIView+EasyLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EasyLayout.m"; sourceTree = "<group>"; };
+		A285533F2186F08500578C4E /* BSXUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSXUIView.h; sourceTree = "<group>"; };
+		A28553402186F08500578C4E /* UIView+BSXMaterialAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BSXMaterialAnimation.m"; sourceTree = "<group>"; };
+		A28553412186F08500578C4E /* BSXUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSXUIView.m; sourceTree = "<group>"; };
+		A28553422186F08500578C4E /* UIView+BSXMaterialAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BSXMaterialAnimation.h"; sourceTree = "<group>"; };
+		A28553432186F08500578C4E /* KHPlayListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KHPlayListView.xib; sourceTree = "<group>"; };
+		A28553442186F08500578C4E /* KHPlayListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KHPlayListView.h; sourceTree = "<group>"; };
+		A28553452186F08500578C4E /* KHRecommandListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KHRecommandListView.h; sourceTree = "<group>"; };
+		A28553462186F08500578C4E /* KHControlOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KHControlOverlayView.m; sourceTree = "<group>"; };
+		A28553472186F08500578C4E /* KHPlayerUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KHPlayerUtil.h; sourceTree = "<group>"; };
+		A28553482186F08500578C4E /* KHTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KHTabBarController.m; sourceTree = "<group>"; };
+		A28553492186F08500578C4E /* KHPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KHPlayerViewController.h; sourceTree = "<group>"; };
+		A285534A2186F08500578C4E /* KHMoreVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KHMoreVideo.m; sourceTree = "<group>"; };
+		A285534B2186F08500578C4E /* KHMoreVideo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KHMoreVideo.xib; sourceTree = "<group>"; };
+		A28553612186F11E00578C4E /* KHPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KHPlayer.h; sourceTree = "<group>"; };
+		A28553652186F7C900578C4E /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		A28553672186F7E100578C4E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A28553692186F91500578C4E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,15 +148,92 @@
 		A28552C92186CDEF00578C4E /* DownLoaderBase */ = {
 			isa = PBXGroup;
 			children = (
+				A28553692186F91500578C4E /* README.md */,
+				A285531E2186F08500578C4E /* Common */,
 				A28552CA2186CDEF00578C4E /* AppDelegate.swift */,
 				A28552CC2186CDEF00578C4E /* ViewController.swift */,
 				A28552CE2186CDEF00578C4E /* Main.storyboard */,
 				A28552D12186CDEF00578C4E /* Assets.xcassets */,
 				A28552D32186CDEF00578C4E /* LaunchScreen.storyboard */,
 				A28552D62186CDEF00578C4E /* Info.plist */,
-				A28552DC2186E02500578C4E /* BaseViewController.swift */,
+				A28553652186F7C900578C4E /* IntroViewController.swift */,
+				A28553672186F7E100578C4E /* LoginViewController.swift */,
 			);
 			path = DownLoaderBase;
+			sourceTree = "<group>";
+		};
+		A285531E2186F08500578C4E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A28553202186F08500578C4E /* KHPlayer */,
+				A285531F2186F08500578C4E /* BaseViewController.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		A28553202186F08500578C4E /* KHPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				A28553312186F08500578C4E /* EasyLayout */,
+				A285533E2186F08500578C4E /* BSXMaterialAnimation */,
+				A28553612186F11E00578C4E /* KHPlayer.h */,
+				A28553232186F08500578C4E /* KHPlayerNotifications.h */,
+				A28553302186F08500578C4E /* KHNavigationController.h */,
+				A28553212186F08500578C4E /* KHNavigationController.m */,
+				A28553222186F08500578C4E /* KHPlayerGoogleCast.h */,
+				A285532F2186F08500578C4E /* KHPlayerGoogleCast.m */,
+				A28553452186F08500578C4E /* KHRecommandListView.h */,
+				A285532A2186F08500578C4E /* KHRecommandListView.m */,
+				A28553252186F08500578C4E /* KHRecommandListView.xib */,
+				A28553292186F08500578C4E /* KHControlOverlayView.h */,
+				A28553462186F08500578C4E /* KHControlOverlayView.m */,
+				A28553272186F08500578C4E /* KHControlOverlayView.xib */,
+				A28553492186F08500578C4E /* KHPlayerViewController.h */,
+				A285532C2186F08500578C4E /* KHPlayerViewController.m */,
+				A285532D2186F08500578C4E /* KHTabBarController.h */,
+				A28553482186F08500578C4E /* KHTabBarController.m */,
+				A28553242186F08500578C4E /* KHResolution.h */,
+				A285532E2186F08500578C4E /* KHResolution.m */,
+				A28553442186F08500578C4E /* KHPlayListView.h */,
+				A28553262186F08500578C4E /* KHPlayListView.m */,
+				A28553432186F08500578C4E /* KHPlayListView.xib */,
+				A28553472186F08500578C4E /* KHPlayerUtil.h */,
+				A28553282186F08500578C4E /* KHPlayerUtil.m */,
+				A285532B2186F08500578C4E /* KHMoreVideo.h */,
+				A285534A2186F08500578C4E /* KHMoreVideo.m */,
+				A285534B2186F08500578C4E /* KHMoreVideo.xib */,
+			);
+			path = KHPlayer;
+			sourceTree = "<group>";
+		};
+		A28553312186F08500578C4E /* EasyLayout */ = {
+			isa = PBXGroup;
+			children = (
+				A28553322186F08500578C4E /* ELConstraintsMaker.h */,
+				A28553332186F08500578C4E /* UIView+EasyLayout.h */,
+				A28553342186F08500578C4E /* ELLayoutConstraintModel.h */,
+				A28553352186F08500578C4E /* ELLayoutCombinationConstraintModel.m */,
+				A28553362186F08500578C4E /* EasyLayoutDefine.h */,
+				A28553372186F08500578C4E /* ELLayoutAttributeProtocol.h */,
+				A28553382186F08500578C4E /* EasyLayout.h */,
+				A28553392186F08500578C4E /* ELConstraintsMaker+ELPrivate.h */,
+				A285533A2186F08500578C4E /* ELConstraintsMaker.m */,
+				A285533B2186F08500578C4E /* ELLayoutCombinationConstraintModel.h */,
+				A285533C2186F08500578C4E /* ELLayoutConstraintModel.m */,
+				A285533D2186F08500578C4E /* UIView+EasyLayout.m */,
+			);
+			path = EasyLayout;
+			sourceTree = "<group>";
+		};
+		A285533E2186F08500578C4E /* BSXMaterialAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				A285533F2186F08500578C4E /* BSXUIView.h */,
+				A28553402186F08500578C4E /* UIView+BSXMaterialAnimation.m */,
+				A28553412186F08500578C4E /* BSXUIView.m */,
+				A28553422186F08500578C4E /* UIView+BSXMaterialAnimation.h */,
+			);
+			path = BSXMaterialAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,8 +297,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A285534E2186F08500578C4E /* KHRecommandListView.xib in Resources */,
+				A285535C2186F08500578C4E /* KHPlayListView.xib in Resources */,
 				A28552D52186CDEF00578C4E /* LaunchScreen.storyboard in Resources */,
+				A28553602186F08500578C4E /* KHMoreVideo.xib in Resources */,
 				A28552D22186CDEF00578C4E /* Assets.xcassets in Resources */,
+				A28553502186F08500578C4E /* KHControlOverlayView.xib in Resources */,
+				A285536A2186F91500578C4E /* README.md in Resources */,
 				A28552D02186CDEF00578C4E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,9 +392,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A28553682186F7E100578C4E /* LoginViewController.swift in Sources */,
+				A28553522186F08500578C4E /* KHRecommandListView.m in Sources */,
+				A285535B2186F08500578C4E /* BSXUIView.m in Sources */,
 				A28552CD2186CDEF00578C4E /* ViewController.swift in Sources */,
+				A28553572186F08500578C4E /* ELConstraintsMaker.m in Sources */,
+				A285534F2186F08500578C4E /* KHPlayListView.m in Sources */,
+				A285535E2186F08500578C4E /* KHTabBarController.m in Sources */,
+				A28553512186F08500578C4E /* KHPlayerUtil.m in Sources */,
+				A285535D2186F08500578C4E /* KHControlOverlayView.m in Sources */,
+				A285534C2186F08500578C4E /* BaseViewController.swift in Sources */,
+				A285534D2186F08500578C4E /* KHNavigationController.m in Sources */,
 				A28552CB2186CDEF00578C4E /* AppDelegate.swift in Sources */,
-				A28552DD2186E02500578C4E /* BaseViewController.swift in Sources */,
+				A285535A2186F08500578C4E /* UIView+BSXMaterialAnimation.m in Sources */,
+				A285535F2186F08500578C4E /* KHMoreVideo.m in Sources */,
+				A28553582186F08500578C4E /* ELLayoutConstraintModel.m in Sources */,
+				A28553542186F08500578C4E /* KHResolution.m in Sources */,
+				A28553662186F7C900578C4E /* IntroViewController.swift in Sources */,
+				A28553552186F08500578C4E /* KHPlayerGoogleCast.m in Sources */,
+				A28553532186F08500578C4E /* KHPlayerViewController.m in Sources */,
+				A28553592186F08500578C4E /* UIView+EasyLayout.m in Sources */,
+				A28553562186F08500578C4E /* ELLayoutCombinationConstraintModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

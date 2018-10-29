@@ -12,18 +12,19 @@ import NotificationBannerSwift
 
 class ViewController: BaseViewController {
 
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.initOrientalChangeNoti()
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-        NotificationBanner.init(title:"Sample Notifications").show()
+    override func initSubViews() {
+        super.initSubViews()
+        print("서브뷰")
     }
-    
     
     override func initLayoutPortrait() {
         super.initLayoutPortrait()
