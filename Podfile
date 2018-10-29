@@ -6,5 +6,13 @@ target 'DownLoaderBase' do
   use_frameworks!
 
   # Pods for DownLoaderBase
+pod 'Alamofire'
+pod 'AlamofireImage'
 
+pod 'Realm'
+pod 'SwiftDate'
+pod 'Spring'
+pod 'NotificationBannerSwift'
+pod 'ViewAnimator'
+pod 'SnapKit'
 end
